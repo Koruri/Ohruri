@@ -4,23 +4,31 @@ Mgen+ と Open Sans を合成した日本語 TrueType フォント
 
 ## フォントの構成
 
-Ohruri-20150606  では、次の生成スクリプトを使用しています。  
-[https://gist.github.com/lindwurm/883ad6afb86d4a22b144/f0366de807049aaad0ddfb304455cb60bbc83f4a](https://gist.github.com/lindwurm/883ad6afb86d4a22b144/f0366de807049aaad0ddfb304455cb60bbc83f4a)
+Ohruri-20221103 で使用した生成スクリプトは [ohruri.py - Koruri/Scripts@c18ddf1c38](https://github.com/Koruri/Scripts/blob/c18ddf1c3891620bd40feb9cdea3e7e4600aa130/ohruri.py) から入手可能です。
 
-Ohruri-20150226 では、 **Mgen+ 1.059.20150602** と **Open Sans 1.10** を使用しています。
+Ohruri-20221103 は以下のフォントを合成して作成されています:
 
-Mgen+ は M+ OUTLINE FONTS の 2015.05.31 時点の CVS 版をベースに源ノ角ゴシック(Noto Sans CJK / Source Han Sans) でグリフを補ったフォントです。
+- **Mgen+ 1.059.20150602**
+  - M+ OUTLINE FONTS の 2015.05.31 時点の CVS 版をベースに源ノ角ゴシック(Noto Sans CJK JP / Source Han Sans) でグリフを補ったフォントです
+- **M+ OUTLINE FONTS TESTFLIGHT 063a**
+  - 上に挙げたMgen+の公開以降に M+ OUTLINE FONTS で追加されたグリフを補うため合成しています
+- **Roboto**
+  - Android OS でロック画面の時計に使用される fancy colon (`U+EE01`) を補うため合成しています
+- **Open Sans 2.01**
 
-- Ohruri Regular: **Mgen+ 1p Regular** と **Open Sans Regular** の合成
-- Ohruri Light: **Mgen+ 1p Light** と **Open Sans Light** の合成
-- Ohruri Semibold: **Mgen+ 1p Medium** と **Open Sans Semibold** の合成
-- Ohruri Bold: **Mgen+ 1p Bold** と **Open Sans Bold** の合成
-- Ohruri Extrabold: **Mgen+ 1p Heavy** と **Open Sans ExtraBold** の合成
+| Ohruri | Mgen+ 1p, M+ 1p | Open Sans | Roboto
+|:---:|:---:|:---:|:---:|
+| **Regular** | Regular | Regular | Regular |
+| **Light** | Light | Light | Light |
+| **Semibold** | Medium | Semibold | Medium |
+| **Bold** | Bold | Bold | Bold |
+| **Extrabold** | Heavy | ExtraBold | Black |
 
 ## ライセンス
 
-Ohruri は **SIL Open Font License 1.1** の下で公開されます。ライセンス原文は [LICENSE](https://github.com/Koruri/Ohruri/blob/master/LICENSE) をご覧ください。
-日本語訳は [SIL_Open_Font_License_1.1 - Open Source Group Japan Wiki](https://ja.osdn.net/projects/opensource/wiki/SIL_Open_Font_License_1.1) でご確認ください。
+Ohruri は **SIL Open Font License 1.1** の下で公開されます。原文は [LICENSE](https://github.com/Koruri/Ohruri/blob/master/LICENSE) をご確認ください。
+
+必要に応じて [Open Source Group Japanによる日本語参考訳](hhttps://licenses.opensource.jp/OFL-1.1/OFL-1.1.html) もご確認ください。
 
 ## リンク
 
@@ -28,6 +36,7 @@ Ohruri は **SIL Open Font License 1.1** の下で公開されます。ライセ
 - [M+ FONTS](https://mplus-fonts.osdn.jp/)
 - [源ノ角ゴシック (Source Han Sans)](https://github.com/adobe-fonts/source-han-sans)
 - [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- [Roboto](https://fonts.google.com/specimen/Roboto)
 - [FontForge](https://fontforge.github.io/en-US/)
 
 ## 作者
