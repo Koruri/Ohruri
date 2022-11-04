@@ -28,7 +28,7 @@ Ohruri-20221103 は以下のフォントを合成して作成されています:
 
 Ohruri は **SIL Open Font License 1.1** の下で公開されます。原文は [LICENSE](https://github.com/Koruri/Ohruri/blob/master/LICENSE) をご確認ください。
 
-必要に応じて [Open Source Group Japanによる日本語参考訳](hhttps://licenses.opensource.jp/OFL-1.1/OFL-1.1.html) もご確認ください。
+必要に応じて [Open Source Group Japanによる日本語参考訳](https://licenses.opensource.jp/OFL-1.1/OFL-1.1.html) もご確認ください。
 
 ## リンク
 
